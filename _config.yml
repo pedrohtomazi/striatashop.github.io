@@ -1,7 +1,0 @@
-title: StriataShop Docs
-description: Documentação oficial dos scripts StriataShop
-theme: just-the-docs
-
-# Define onde estão os arquivos .md
-baseurl: "" # deixa vazio
-url: "https://pedrotomazi.github.io/striatashop.github.io"

@@ -1,0 +1,53 @@
+site_name: StriataShop
+site_url: https://striatashop.github.io
+site_description: Documentação oficial dos scripts StriataShop
+
+theme:
+  name: material
+  features:
+    - nav.tabs        # deixa Scripts como aba recolhível
+    - nav.sections    # cria seções dentro da aba
+    - nav.indexes
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - scheme: slate   # escuro por padrão
+      primary: black
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Mudar para modo claro
+    - scheme: default
+      primary: black
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Mudar para modo escuro
+  font:
+    text: Roboto
+    code: Roboto Mono
+    
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+
+nav:
+  - Início: index.md
+  - Instalação: instalacao.md
+  - Configuração: configuracao.md
+  - Scripts:
+      - Time Weather: scripts/time-weather.md
+      - Admin Prision: scripts/adm-prision.md
+      - Doors: scripts/doors.md
+      - Level: scripts/level.md
+      - Notify: scripts/notify.md
+      - Survival: scripts/survival.md
+      - Production: scripts/production.md
+      - Races: scripts/races.md
+      - Advanced Fuel: scripts/advanced-fuel.md
+      - Discord Bot: scripts/discord-bot.md
