@@ -1,0 +1,1 @@
+# striatashop.github.io
